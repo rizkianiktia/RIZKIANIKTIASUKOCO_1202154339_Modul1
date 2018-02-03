@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rizkianiktia.rizkianiktiasukoco_1202154339_modul1.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/txt_makan_malam"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="@string/dengan_milea"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+
+    <EditText
+        android:id="@+id/editTextNasiUduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nasi_uduk"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextNasiUduk"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/_2"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/buttonEatbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="76dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:background="@color/colorAccent"
+        android:onClick="eatbus"
+        android:text="@string/button_main"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/buttonAbnormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonEatbus"
+        android:layout_alignBottom="@+id/buttonEatbus"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/txt_abnorml"
+        android:onClick="abnormal"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="337dp" />
+</RelativeLayout>

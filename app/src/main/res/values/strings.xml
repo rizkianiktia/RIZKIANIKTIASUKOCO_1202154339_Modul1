@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RIZKIANIKTIASUKOCO_1202154339_Modul1</string>
+    <string name="button_main">EATBUS</string>
+    <string name="nasi_uduk">Nasi uduk</string>
+    <string name="_2">2</string>
+    <string name="txt_makan_malam">Makan Malam</string>
+    <string name="dengan_milea">dengan Milea</string>
+    <string name="txt_abnorml">ABNORMAL</string>
+    <string name="txt2_makan_malam">Makan Malam</string>
+    <string name="txt_menu">Menu</string>
+    <string name="txt2_nasi_uduk">Nasi uduk</string>
+    <string name="txt_porsi">Porsi</string>
+    <string name="activity2_main">Study Case</string>
+    <string name="toast_message1">Jangan disini makan malamnya uang kamu tidak cukup!</string>
+    <string name="toast_message2">Disini aja makan malamnya!</string>
+</resources>
